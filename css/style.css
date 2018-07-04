@@ -1,10 +1,88 @@
-section.page-section {
-    padding: 20pxs   0;
+body,
+a,
+p,
+div,
+span,
+small,
+pre,
+code,
+section,
+footer,
+header,
+b{
+	font-family: 'Montserrat', sans-serif;
 }
+body {
+	font-size: 14px;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
 img {
     width: auto;
 }
 
+/*Header section*/
+section.page-section {
+    padding: 20pxs 0;
+    float: left;
+    width: 100%;
+}
+section.page-section.header-section {
+    padding: 20pxs 0;
+    background: #000;
+    color: #fff;
+    float: left;
+    width: 100%;
+}
+section.page-section .header-top {
+	padding: 10px 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+section.page-section .header-top.left {
+	padding-left: 30px;
+	float: left;
+}
+section.page-section .header-top.right {
+	padding-right: 30px;
+	float: left;
+}
+section.page-section .header-top a {
+	color: #fff;
+}
+section.page-section ul.main-menu {
+	padding: 0;
+	float: left;
+}
+section.page-section .main-menu a {
+	color: #fff;
+	padding: 30px 15px;
+	float: left;
+	border-top: 2px solid #000;
+}
+section.page-section .main-menu a:hover {
+	color: #000;
+	background: rgba(129, 129, 129, 1);
+	border-top: 2px solid #fff;
+}
+section.page-section .header-search {
+}
+section.page-section .header-search-main .search-input {
+	border: none;
+	padding: 31px 0;
+}
+section.page-section .header-search-main .search-btn {
+	border: none;
+	padding: 31px 30px;
+	margin: 0px 0 0 -3px;
+}
+
+/*Banner section*/
 .home-banner-attachment {
     width: 100%;
 }
